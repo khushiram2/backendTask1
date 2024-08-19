@@ -1,0 +1,8 @@
+import crypto from "crypto"
+
+const generateOtp = () => {
+  const otp = crypto.randomInt(999999);
+  return otp;
+}
+
+
